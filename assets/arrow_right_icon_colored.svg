@@ -1,4 +1,9 @@
-<svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.0909 5.5H1" stroke="#FF532E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.14286 10L1 5.5L6.14286 1" stroke="#FF532E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>left green arrow skinny 1</title>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#00ff00" fill-rule="evenodd" stroke="#00ff00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" id="path831" d="m5.03849,31.20866l51.10462,0"/>
+  <path fill="none" fill-rule="evenodd" stroke="#00ff00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" id="path869" d="m16.53657,21.59174l-12.9192,9.28125l12.61055,10.3125"/>
+ </g>
 </svg>
