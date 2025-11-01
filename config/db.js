@@ -1,4 +1,6 @@
 import mongoose from "mongoose";
+// In app/api/inngest/route.js
+import { inngest, syncUserCreation, syncUserUpdate, syncUserDeletion } from "@/config/inngest";
 let cached=global.mongoose
 if(!cached){
 cached=global.mongoose={conn:null,promise:null}
@@ -14,7 +16,7 @@ async function connectToDB()
         const opts={
             bufferCommands:false
         }
-        cached.promise=mongoose.connect('${process.env.MONGODB_URL}/sleekcart',opts).then(mongoose=>{
+cached.promise=mongoose.connect(`${process.env.MONGODB_URL}/sleekcart`,opts).then(mongoose=>{
             return mongoose
         })
     }
